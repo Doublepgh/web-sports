@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            background-color: #daedf2;
+           
+            padding: 15px;
+            /* border-radius: 10px; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            margin: 0; /* Para eliminar el margen predeterminado del h1 */
+            color: black;
+        }
+        #logo {
+            max-width: 50px; /* Ajusta el tamaño de la imagen según tu preferencia */
+            margin-right: 10px; /* Ajusta el margen entre la imagen y el título */
+        }
+    </style>
+    <script>
+        // Obtener el tipo de usuario de la variable PHP
+        var tipoUsuario = '<?php echo isset($tipoUsuario) ? $tipoUsuario : ""; ?>';
+
+        // Actualizar el contenido del elemento #tipoUsuario
+        window.onload = function() {
+            document.getElementById('tipoUsuario').textContent = tipoUsuario;
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <img src="images/futbol.png" alt="Logo" id="logo"> <!-- Agrega la ruta de tu imagen -->
+        <h1>SPORTS SIGLO XXI</h1>
+        <h1 id="tipoUsuario"></h1>
+    </header>
+</body>
+</html>

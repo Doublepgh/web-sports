@@ -1,0 +1,63 @@
+.form-container {
+    background-color: #fff; /* Cambiado a blanco para mayor contraste */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+/* Estilo para los campos de entrada */
+.form-container input {
+    width: 80%; /* Hace que el ancho sea el 100% del contenedor */
+    padding: 10px; /* Ajustado para un aspecto más equilibrado */
+    margin-bottom: 20px; /* Mayor espacio entre los campos de entrada */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón */
+.attractive-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px; /* Ajustado para un aspecto más equilibrado */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Agregada transición suave al color de fondo */
+}
+
+.attractive-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el enlace dentro del formulario */
+.form-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para el enlace cuando se pasa el mouse por encima */
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+.boton {
+    text-align: center;
+    background-color: #4f8dcf; /* Color de fondo atractivo (puedes cambiarlo según tu preferencia) */
+    color: #bcdef1; /* Color del texto */
+    padding: 5px 10px; /* Espacio interno alrededor del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    font-size: 15px; 
+    width: 70px;
+    
+}
+.button-container {
+    text-align: center; /* Centrar el contenido horizontalmente */
+}

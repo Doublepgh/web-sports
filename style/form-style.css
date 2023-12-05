@@ -1,0 +1,133 @@
+/* style.css */
+
+.logo__bold {
+    font-weight: 700;
+}
+.fondo3{
+    background-color:rgb(243, 96, 169);
+    height: 50px;
+    text-align: center;
+    border: 1px solid;
+}
+.fondo{
+    background-color:rgb(195, 213, 240);
+    height: 50px;
+    border-radius: 10px;
+}
+
+.section1{
+    /* background-color: #aa1818; */
+    margin: 0 auto;
+    padding: 10px;
+    /* border-radius: 5px; */
+    width: 420px;
+}
+.form-container {
+    background-color: #8bc2b0; /* Color de fondo del div */
+    padding: 20px; /* Espacio interno alrededor del div */
+    border: 1px solid #ccc; /* Borde del div */
+    border-radius: 5px; /* Borde redondeado del div */
+    max-width: 400px; /* Ancho máximo del div */
+    margin: 0 auto; /* Centrar el div horizontalmente */
+    text-align: center; /* Centrar el contenido dentro del div horizontalmente */
+}
+
+.form-container input {
+    width: 80%;
+    padding: 20px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Centrar el texto dentro de los campos de entrada */
+}
+
+/* style.css */
+.button-container {
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+.attractive-button {
+    text-align: center;
+    background-color: #007bff; /* Color de fondo atractivo (puedes cambiarlo según tu preferencia) */
+    color: #bcdef1; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno alrededor del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.attractive-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse (opcional) */
+}
+
+.boton {
+    text-align: center;
+    background-color: #007bff; /* Color de fondo atractivo (puedes cambiarlo según tu preferencia) */
+    color: #bcdef1; /* Color del texto */
+    padding: 5px 10px; /* Espacio interno alrededor del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    font-size: 15px; 
+    width: 70px;
+    
+}
+
+.carousel-inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto; /* Esto mantiene la proporción de aspecto original de las imágenes */
+    /* width: 300px */
+}
+
+.success {
+    background-color: #4CAF50; /* Color verde para mensajes de éxito */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+}
+
+.error {
+    background-color: #f44336; /* Color rojo para mensajes de error */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para los íconos de redes sociales */
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+}
+
+.separacion{
+    width: 300px;
+}
+
+.centrado {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 0 auto; /* Centra el contenedor en la página horizontalmente */
+    width: 60%; /* Ajusta el ancho del contenedor según tus preferencias */
+}
